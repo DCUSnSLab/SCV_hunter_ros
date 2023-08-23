@@ -19,7 +19,7 @@
         <param name="simulated_robot" type="bool" value="$(arg simulated_robot)" />
         <param name="publish_tf" type="bool" value="$(arg publish_tf)" />
 
-        <param name="odom_frame" type="string" value="odom" />
+        <param name="odom_frame" type="string" value="scv_odom" />
         <param name="base_frame" type="string" value="base_link" />
     </node>
 </launch>
